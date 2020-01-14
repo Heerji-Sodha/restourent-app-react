@@ -1,0 +1,107 @@
+/* #mainpaperDiv{
+width: 100px;
+border:  1px solid;
+height: 200px;
+
+
+
+} */
+
+
+#p{
+width: 600px;
+height: 370px;
+margin:  0 auto;
+margin-top: 130px;
+border-radius: 10px;
+}
+
+
+#img{
+    margin-top: 330px;
+    display: inline-block;
+     float:  left;
+     margin-left: 10px;
+   
+
+}
+
+
+#nameh2{
+margin-top: 40px;
+/* margin-right: 30px; */
+float:  right;
+margin-right: 120px;
+font-family:Open Sans;
+
+
+}
+
+
+#emailError{
+margin-left: 80px;
+margin-top: 20px;
+padding: 10px;
+border-radius: 50px;
+width: 200px;
+/* background-color: darkgray;
+    color: white;
+     */
+
+}
+
+#password{
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 200px;
+    /* background-color:darkgray;
+    color: white;
+     */
+    
+    }
+
+
+
+    #btnlogn{
+        margin-left: 325px;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 50px;
+        width: 210px;
+        background-color: rgba(24, 231, 5, 0.904);
+
+    }
+
+   /* :hover #btnlogn{
+    background-color: deeppink;
+ 
+    } */
+
+
+
+    #frgtpswd{
+text-decoration: none;
+color: rgb(103, 156, 103);
+
+    }
+
+
+    #spanfrgt{
+margin-left: 320px;
+margin-top: 20px;
+
+
+    }
+
+
+
+    #crtaccnt{
+        margin-left: 360px;
+color: rgb(103, 156, 103);
+                
+    text-decoration: none;
+        cursor: pointer;
+        
+            }

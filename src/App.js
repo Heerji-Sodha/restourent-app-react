@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import AppRouter from './Config/Router/Router'
 import './App.css';
+import { Provider } from 'react-redux'
+import store from './Containers/Store'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Provider store = {store} >
+       <AppRouter/>
+       </Provider>m
     </div>
   );
 }
